@@ -1,6 +1,6 @@
-#Installing usable bash autocomplete shell on Ubuntu 16.10 / 17.04
+# Installing usable bash autocomplete shell on Ubuntu 16.10 / 17.04
 
-*1. Step install zsh:
+## 1. Step install zsh:
 
 sudo apt-get install zsh
 sudo apt-get install git-core
@@ -9,7 +9,7 @@ chsh -s `which zsh`
 sudo shutdown -r 0
 
 
-*2. Step edit ~/.zshrc
+## 2. Step edit ~/.zshrc
 
 gedit .zshrc
 
@@ -24,13 +24,13 @@ gedit .zshrc
    source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
-*3. Download and install zsh-autosuggestions
+## 3. Download and install zsh-autosuggestions
 
 cd ~
 mkdir .zsh
 cd .zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions
 
-* 4. Done !
+## 4. Done !
 
 
